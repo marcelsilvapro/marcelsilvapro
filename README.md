@@ -8,6 +8,12 @@ Este perfil reúne os projetos académicos e técnicos que tenho vindo a desenvo
 
 ## Projetos Académicos — ISEP (LEEC)
 
+### [ADM Inventories — Sistema de Gestão de Inventário](https://github.com/marcelsilvapro/isep-gestao-inventario)
+Aplicação web *full-stack* desenvolvida em **PHP, MySQL, HTML, CSS e JavaScript** no âmbito de **DEAPC (Desenvolvimento de Aplicações Computacionais)** para gestão de stock, clientes, encomendas e utilizadores:
+- Autenticação baseada em sessões PHP com controlo de acessos por perfil (**Administrador** e **Utilizador**).
+- Gestão completa de encomendas (criação, pesquisa, atualização de estado e reposição automática de stock em cancelamentos).
+- Painéis de administração para CRUD de produtos, clientes e utilizadores (com geração automática de password via *trigger* MySQL).
+
 ### [Sistema de Tickets — Centro de Saúde](https://github.com/marcelsilvapro/isep-sistema-tickets-centro-saude)
 Aplicação de consola desenvolvida em **linguagem C** no âmbito de **APROG (Algoritmia e Programação)** para simulação e gestão do atendimento ao público num centro de saúde:
 - Gestão de tickets para consultas marcadas e urgências com registo temporal em tempo real (`time.h`).
@@ -29,6 +35,7 @@ Aplicação de consola desenvolvida em **linguagem C** no âmbito de **APROG (Al
 ## Competências Técnicas
 
 - **Programação & Sistemas Embebidos:** Linguagem C, Microcontroladores, Linux, Git
+- **Desenvolvimento Web & Bases de Dados:** PHP, MySQL, HTML5, CSS3, JavaScript
 - **Eletrónica:** KiCad, PSpice for TI, Instrumentação, Circuitos Elétricos
 - **Automação & Controlo:** Comissionamento industrial, Hägglunds Spider, Noções de Siemens SPS (PLC)
 - **Sistemas Industriais:** Hidráulica Industrial, Diagnóstico de avarias (elétricas, mecânicas e hidráulicas), Esquemas técnicos
