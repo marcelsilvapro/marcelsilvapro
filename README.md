@@ -8,6 +8,12 @@ Este perfil reúne os projetos académicos e técnicos que tenho vindo a desenvo
 
 ## Projetos Académicos — ISEP (LEEC)
 
+### [Controlador de Temperatura Analógico & Atuação LED — ELEAPL](https://github.com/marcelsilvapro/isep-controlador-temperatura-analogico)
+Sistema completo de eletrónica analógica, instrumentação e aquisição de dados desenvolvido em **ELEAPL (Eletrónica Aplicada)** com **PSpice for TI, ATmega2560 e LabVIEW**:
+- **Condicionamento NTC (17 °C – 37 °C → 0 V – 5 V):** Ponte de Wheatstone, Amplificador de Instrumentação (TL082), Limitador de Precisão ativo e validação por análise Monte Carlo.
+- **Atuação LED (2 métodos físicos):** controlo linear por corrente (fonte de corrente com 2N3904 + Zener) e modulação **PWM analógica** (oscilador de onda triangular 3 andares ~250 Hz + *Schmitt Trigger*).
+- **Aquisição & Supervisão:** firmware C *bare-metal* no **ATmega2560** (ADC 10-bit com média de 64 amostras, resolução ~0,02 °C) ligado por UART a dashboard **LabVIEW** com alarmes e *data logging* `.xlsx`.
+
 ### [Sistemas Embebidos em ATmega128 — Assembly AVR & C](https://github.com/marcelsilvapro/isep-atmega128-micmic)
 Conjunto de 10 projetos *bare-metal* desenvolvidos para o microcontrolador **ATmega128** (16 MHz) no âmbito de **MICMIC (Microprocessadores e Microcontroladores)**:
 - **Trabalho 1 (Assembly AVR):** manipulação direta de portos de I/O, temporizadores em modo CTC, *debounce*, sistema de furação de placas, roleta de números e jogo **Mastermind** em 4 displays de 7 segmentos multiplexados.
@@ -39,9 +45,9 @@ Aplicação de consola desenvolvida em **linguagem C** no âmbito de **APROG (Al
 
 ## Competências Técnicas
 
-- **Programação & Sistemas Embebidos:** Linguagem C, Assembly (AVR), Microcontroladores (ATmega128), PWM, USART/RS232, ADC, Microchip Studio, Linux, Git
+- **Programação & Sistemas Embebidos:** Linguagem C, Assembly (AVR), Microcontroladores (ATmega128, ATmega2560), PWM, USART/RS232, ADC, Microchip Studio, Linux, Git
 - **Desenvolvimento Web & Bases de Dados:** PHP, MySQL, HTML5, CSS3, JavaScript
-- **Eletrónica:** KiCad, PSpice for TI, Instrumentação, Circuitos Elétricos
+- **Eletrónica & Instrumentação:** PSpice for TI, KiCad, NI LabVIEW, Condicionamento de Sinal, Circuitos Elétricos, Instrumentação de Bancada
 - **Automação & Controlo:** Comissionamento industrial, Hägglunds Spider, Noções de Siemens SPS (PLC)
 - **Sistemas Industriais:** Hidráulica Industrial, Diagnóstico de avarias (elétricas, mecânicas e hidráulicas), Esquemas técnicos
 - **Idiomas:** Português (Nativo) · Alemão (Nativo) · Inglês (Avançado)
